@@ -12,6 +12,8 @@ public class Solution {
      * 3. Реализуйте интерфейс {@link CountMap} в классе CountMapImpl.
      *
      * 4. Верните экземпляр объекта класса {@link CountMapImpl} в методе {@link Solution#getCountMap()}
+     *
+     * 5. Раскомментируйте тест для проверки.
      */
     public static CountMap getCountMap() {
         return null;
