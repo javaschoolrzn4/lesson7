@@ -5,26 +5,26 @@ import java.util.Map;
 /**
  * Контейнер со счётчиком ссылок
  */
-public interface CountMap {
+public interface CountMap<T> {
     /**
      * Добавляет элемент в контейнер
      * @param o элемент
      */
-    void add(Object o);
+    void add(T o);
 
     /**
      * Возвращает количество ссылок на элемент в контейнере
      * @param o элемент
      * @return количество ссылок на элемент в контейнере
      */
-    int getCount(Object o);
+    int getCount(T o);
 
     /**
      * Удаляет ссылку на элемент контейнера и возвращает количество ссылок на элемент (до удаления)
      * @param o элемент
      * @return количество ссылок на элемент(до удаления)
      */
-    int remove(Object o);
+    int remove(T o);
 
     /**
      * Возвращает количество различных элементов
